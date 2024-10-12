@@ -8,3 +8,10 @@ This project uses the 2021 Tokyo Olympics data from Kaggle. This dataset provide
 
 ## Architecture
 ![Architecture Diagram](https://github.com/flynnRider046/Azure-Olympic-Data-Engineering/blob/edb5d63ba24c032ddc57b155c58503190880de76/Images/Architecture%20diagram.png)
+The project leverages the following Azure services:
+* Data Azure Factory
+* Azure Data Lake Storage Gen2
+* Azure Databricks
+* Azure Synapse Analytcis
+
+
