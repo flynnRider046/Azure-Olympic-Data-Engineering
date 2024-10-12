@@ -5,3 +5,5 @@ This project performs the Data engineering pipeline implementation for Olympic d
 
 ## Project Overview
 This project uses the 2021 Tokyo Olympics data from Kaggle. This dataset provides information about Tokyo Olympics, including details on athletes, coaches, events, and medal outcomes.
+
+## Architecture
