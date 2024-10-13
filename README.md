@@ -47,6 +47,11 @@ The data ingestion pipline in Azure Data Factory includes multiple datasets whic
 
 ## Storage Accounts
 The first step in the pipeline is setting up azure storage account. This storage account provides secure and scalable environments for storing large amounts of data.
+![Storage Account](https://github.com/flynnRider046/Azure-Olympic-Data-Engineering/blob/7720ec3e6b361b591d3f506b7ee9a06d02c70c20/Images/Storage%20Account.png)
+
+## Containers
+Storage containers are used for the seperation of different datasets related to 2021 Tokyo Olympics. This is performed to make sure that the data remains organized and easily accessible. Because of this seperation, we can manage ingestion, processing and storage of raw and transformed data. 
+The below is the storage accounts used for this project.
 
 
 
