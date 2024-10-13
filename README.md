@@ -52,6 +52,10 @@ The first step in the pipeline is setting up azure storage account. This storage
 ## Containers
 Storage containers are used for the seperation of different datasets related to 2021 Tokyo Olympics. This is performed to make sure that the data remains organized and easily accessible. Because of this seperation, we can manage ingestion, processing and storage of raw and transformed data. 
 The below is the storage accounts used for this project.
+![Storage containers](https://github.com/flynnRider046/Azure-Olympic-Data-Engineering/blob/6eb45afbc7b2c222caf81e94a030dbf4aff3d27c/Images/Storage%20Containers.png)
+
+## Linked Services and Resource Groups
+These are configured in Azure to manage connections between different services used in the project. Ensure to setup the linked services and resource groups wherever required during the pipeline execution steps.
 
 
 
