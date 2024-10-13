@@ -92,6 +92,15 @@ The stored data is analyzed using Azure Synapse Analytics, which gives out power
 * The medal tally serves as a key performance indicator, reflecting each country’s competitive edge in specific sports disciplines.
 * The gender entry averages highlight participation trends and can guide initiatives aimed at increasing female or male representation in various sports.
 
+## Contributors
+<strong>Rohith Damgeti</strong>
+
+## Credits
+<strong>Darshil Parmar</strong>
+
+## References
+[https://www.youtube.com/watch?v=IaA9YNlg5hM&t=1s](https://www.youtube.com/watch?v=IaA9YNlg5hM&t=1s)
+
 
 
 
