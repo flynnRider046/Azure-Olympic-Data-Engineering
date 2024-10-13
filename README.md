@@ -60,6 +60,7 @@ These are configured in Azure to manage connections between different services u
 ## Resource Groups
 Resource groups are used here to efficiently organize and manage all the azure services associated with olympic data engineering pipeline. By grouping the resources together, we can simplyfy management tasks, streamline deployment processes, enforce access permissions based on project requirement. 
 Following image depicts the setup of resource groups used for this project.
+![Resource Groups](https://github.com/flynnRider046/Azure-Olympic-Data-Engineering/blob/24e9237b340b0b02bb4d43822dba0d525b3c8364/Images/Resource%20Groups.png)
 
 ## Data Ingestion
 Once the storage account is setup, data from Kaggle is ingested to Azure Data Factory. The ingestion process allows for the automated transfer of CSV files to Azure.
