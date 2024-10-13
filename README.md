@@ -46,8 +46,7 @@ The dataset involves multiple files with information about
 The data ingestion pipline in Azure Data Factory includes multiple datasets whicha re Athletes, Coaches, Gender-wise entries, Medal stats and Team compositions.
 
 ## Storage Accounts
-Setting up the Azure Storage accounts 
-* 
+The first step in the pipeline is setting up azure storage account. This storage account provides secure and scalable environments for storing large amounts of data.
 
 
 
