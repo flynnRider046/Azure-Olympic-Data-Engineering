@@ -63,18 +63,22 @@ Following image depicts the setup of resource groups used for this project.
 
 ## Data Ingestion
 Once the storage account is setup, data from Kaggle is ingested to Azure Data Factory. The ingestion process allows for the automated transfer of CSV files to Azure.
+![Data Ingestion](https://github.com/flynnRider046/Azure-Olympic-Data-Engineering/blob/d9c140371aba22e180a028531fc54853e13d3ff4/Images/Data%20Ingestion.png)
 
 ## Raw Data Storage (Azure Data Lake Gen2)
 After ingestion, the raw data is stored in Azure Data Lake Gen2, which is basically a central repository for both the structred and unstructured data. 
 
 ## Data Transformation (Azure Databricks)
 The raw data is processed and transformed using Azure Databricks. Here the process like data cleaning, normalization and other transformation tasks are performed. 
+![Data Transformation](https://github.com/flynnRider046/Azure-Olympic-Data-Engineering/blob/d9c140371aba22e180a028531fc54853e13d3ff4/Images/Data%20Transformation.png)
 
 ## Transformed Data Storage (Azure Data Lake Gen2)
 The transformed data is stored back in Azure Data Lake Gen2, making it available for data analytics and further processing.
+![Transformed Data Storage](https://github.com/flynnRider046/Azure-Olympic-Data-Engineering/blob/d9c140371aba22e180a028531fc54853e13d3ff4/Images/Transformed%20data%20storage.png)
 
 ## Analytics (Azure Synapse Analytics)
 The stored data is analyzed using Azure Synapse Analytics, which gives out powerful analytical capabilities for gaining proper insights from data.
+![Azure Synapse Analytics](https://github.com/flynnRider046/Azure-Olympic-Data-Engineering/blob/d9c140371aba22e180a028531fc54853e13d3ff4/Images/Azure%20Synapse%20Analytics.png)
 
 ## Insights and Analytics
 1. <strong>Number of Athletes from each country</strong>:
