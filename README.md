@@ -57,6 +57,43 @@ The below is the storage accounts used for this project.
 ## Linked Services and Resource Groups
 These are configured in Azure to manage connections between different services used in the project. Ensure to setup the linked services and resource groups wherever required during the pipeline execution steps.
 
+## Resource Groups
+Resource groups are used here to efficiently organize and manage all the azure services associated with olympic data engineering pipeline. By grouping the resources together, we can simplyfy management tasks, streamline deployment processes, enforce access permissions based on project requirement. 
+Following image depicts the setup of resource groups used for this project.
+
+## Data Ingestion
+Once the storage account is setup, data from Kaggle is ingested to Azure Data Factory. The ingestion process allows for the automated transfer of CSV files to Azure.
+
+## Raw Data Storage (Azure Data Lake Gen2)
+After ingestion, the raw data is stored in Azure Data Lake Gen2, which is basically a central repository for both the structred and unstructured data. 
+
+## Data Transformation (Azure Databricks)
+The raw data is processed and transformed using Azure Databricks. Here the process like data cleaning, normalization and other transformation tasks are performed. 
+
+## Transformed Data Storage (Azure Data Lake Gen2)
+The transformed data is stored back in Azure Data Lake Gen2, making it available for data analytics and further processing.
+
+## Analytics (Azure Synapse Analytics)
+The stored data is analyzed using Azure Synapse Analytics, which gives out powerful analytical capabilities for gaining proper insights from data.
+
+## Insights and Analytics
+1. <strong>Number of Athletes from each country</strong>:
+   * This analysis provides total number of participating athletes representing each country at the 2021 Tokyo Olympics, ranked by their participation.
+   * <strong>insight</strong>: With more number of athletes from the country could indicate stronger investment in sports and a good sports infrasturcture. This data reflects the country's size, population and overall sports structure.
+2. <strong>Total medals won by each country</strong>:
+   * With this analysis, we can aggregate the total number of gold, silver and bronze medals won by each country, allowing for a comparative understanding of thier success in the olympics.
+   * <strong>insight</strong>: A higher total medal count suggests a country's strength accross various sports. The data can also highlight specific areas where the country excels and may guide future sports funding and development activities.
+3. <strong>Average number of entries by gender for each discipline</strong>:
+   * This analysis evaluates the average number of male and female entries for each Olympic discipline, providing insights into gender representation in different sports.
+   * <strong>insight</strong>: Understanding gender participation can identify sports with disparities between male and female athletes, informing efforts to promote inclusivity and gender equity in athletics.
+
+## Summary of Insights
+* The athlete count provides a snapshot of the sporting strength and investment level of various countries.
+* The medal tally serves as a key performance indicator, reflecting each country’s competitive edge in specific sports disciplines.
+* The gender entry averages highlight participation trends and can guide initiatives aimed at increasing female or male representation in various sports.
+
+
+
 
 
 
